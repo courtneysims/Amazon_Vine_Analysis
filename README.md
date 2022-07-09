@@ -11,7 +11,7 @@ The Video_Games_v1 dataset was chosen from the [Amazon Review Datasets](https://
 
 ![image](https://github.com/courtneysims/Amazon_Vine_Analysis/blob/bd44867aeb3f090cfd1dcc51f34a44ef61a34613/Resources/reviews_distribution_vine_non_vine.PNG)
 
-* Distribution of reviews that were Vine (paid member) and non-Vine.
+* Distribution of reviews that are Vine (paid member) and non-Vine.
 
     * Vine (paid member): 94 reviews
 
@@ -19,9 +19,9 @@ The Video_Games_v1 dataset was chosen from the [Amazon Review Datasets](https://
 
 *  Distribution of reviews that are 5-star.
 
-    * Vine (paid member) reviews that were 5-stars: 48 reviews
+    * Vine (paid member) reviews that are 5-stars: 48 reviews
 
-    * Non-Vine  reviews that were 5-stars: 15,663 reviews
+    * Non-Vine  reviews that are 5-stars: 15,663 reviews
 
 
 * Percentage of 5-star reviews that are Vine (paid member): 51.06% reviews
@@ -33,7 +33,7 @@ The Video_Games_v1 dataset was chosen from the [Amazon Review Datasets](https://
 
 # Summary
 
-The analysis shows that within this dataset there is a possibility of bias in reviews with Amazon Vine members. Of the reviews posted by Vine members, 51.06% were 5-stars. However, out of the 40,565 reviews only 94 reviews are posted by Amazon Vine members. Another limitation of the analysis is the ETL performed on the original dataset to filter out rows that had a total vote of less than 20 and a helpful vote rating less than 50%. It could be helpful to include this data to see if it effects the distribution of reviews by vine members. 
+The analysis shows that within this dataset there is a possibility of bias in reviews with Amazon Vine members. Of the reviews posted by Vine members, 51.06% are 5-stars. However, out of the 40,565 reviews only 94 reviews are posted by Amazon Vine members. Another limitation of the analysis is the ETL performed on the original dataset to filter out rows that had a total vote of less than 20 and a helpful vote rating less than 50%. It could be helpful to include this data to see if it effects the distribution of reviews by vine members. 
 
 * # Recommended further analysis:
 The premise of this analysis is to evaluate if a bias of vine members to post positive reviews is present. A 4-star review is also considered positive. To capture a better understanding of how vine members tend to review products within this dataset, it is recommended to include 4-star reviews of vine and non-vine members. If the percentage of 4-star reviews is also high for Vine members, then that would provide a stronger argument that there is a positivity bias for Vine members to post positive reviews.
